@@ -3,12 +3,12 @@
 1. Создаем проект nestjs. Он будет основой для нашего проекта.
   * Правим форматирование
     * `.eslintrc.js` добавляем правила
-      ```json lines
+      ```json
       'semi': [2, 'never'],
       'quotes': [2, "single"],
       'comma-dangle': ["error", "always-multiline"],
       ```
-    * `.prettierrc' содержимое:
+    * `.prettierrc` содержимое:
     ```json
     {
       "singleQuote": true,
